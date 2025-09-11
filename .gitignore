@@ -1,0 +1,35 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Pytest cache
+.pytest_cache/
+
+# Matplotlib output / generated artifacts
+benchmark_results.csv
+figure1_speed_vs_accuracy.png
+figure2_quantization_impact.png
+figure3_gpu_offload_impact.png
+
+# Editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
+env.local
