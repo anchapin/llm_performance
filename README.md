@@ -1,6 +1,8 @@
 ## LLM Performance — Run using the provided Dockerfile
 
-This repository contains a few Python scripts used for measuring LLM performance. The included `Dockerfile` is intentionally minimal: it sets `WORKDIR /app` and uses `CMD ["python"]`, but it does not copy any repository files into the image. The intended workflow is to build the image and then bind-mount your project directory into the container at runtime.
+[![CI](https://github.com/anchapin/llm_performance/actions/workflows/ci.yml/badge.svg)](https://github.com/anchapin/llm_performance/actions)
+
+This repository contains a few Python scripts used for measuring LLM performance. The included `Dockerfile` was updated to provide a reproducible build that installs pinned dependencies and supports a multi-stage build. Use the provided workflow to run the smoke pipeline in CI.
 
 This README explains how to build the image and run the scripts from macOS (zsh).
 
