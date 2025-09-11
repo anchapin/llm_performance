@@ -1,0 +1,5 @@
+# Code owners for repository
+/.github/workflows/ @anchapin
+/scripts/ @anchapin
+/tests/ @anchapin
+/analyze_results.py @anchapin

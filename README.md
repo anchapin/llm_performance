@@ -1,6 +1,8 @@
 ## LLM Performance — Run using the provided Dockerfile
 
 [![CI](https://github.com/anchapin/llm_performance/actions/workflows/ci.yml/badge.svg)](https://github.com/anchapin/llm_performance/actions)
+[![PyPI - Status](https://img.shields.io/pypi/v/llm-performance.svg?label=PyPI)](https://pypi.org/project/llm-performance/)
+[![Docker Image](https://img.shields.io/docker/pulls/anchapin/llm_performance.svg)](https://hub.docker.com/r/anchapin/llm_performance)
 
 This repository contains a few Python scripts used for measuring LLM performance. The included `Dockerfile` was updated to provide a reproducible build that installs pinned dependencies and supports a multi-stage build. Use the provided workflow to run the smoke pipeline in CI.
 
