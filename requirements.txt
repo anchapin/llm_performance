@@ -1,7 +1,7 @@
 pandas==2.3.2
 matplotlib==3.10.6
 seaborn==0.13.2
-ollama==0.5.3
+ollama==0.6.0
 evaluate==0.4.5
 docker==7.1.0
 datasets==4.0.0
